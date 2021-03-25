@@ -21,3 +21,9 @@ Instructions:
 4. copy .env.example and rename copied file to .env and add this in the bottom without quote "API_KEY=c3f34fecfe6f64e6ecea28143981b019"
 5. type in terminal without quote "php artisan key:generate"
 6. run laravel by typing "php artisan serve"
+
+
+![image](https://user-images.githubusercontent.com/29330805/112468147-e6b87a00-8da2-11eb-816b-a0bac443e89e.png)
+
+*Sorting popularity was not able to implement because there is no params for sorting in v3.
+While in v4 there is a sorting params but not for popularity and no API also for popular movies.
