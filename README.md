@@ -18,5 +18,5 @@ Instructions:
 1. Open terminal and go to directory where you want to clone this project
 2. type without quote "git clone https://github.com/bryanjarito/Laravel-themoviedbAPI.git"
 3. type without quote "composer install"
-4. create .env file and add this in the bottom without quote "API_KEY=c3f34fecfe6f64e6ecea28143981b019"
+4. copy .env.example and rename copied file to .env and add this in the bottom without quote "API_KEY=c3f34fecfe6f64e6ecea28143981b019"
 5. run laravel by typing "php artisan serve"
