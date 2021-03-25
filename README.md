@@ -19,4 +19,5 @@ Instructions:
 2. type without quote "git clone https://github.com/bryanjarito/Laravel-themoviedbAPI.git"
 3. type without quote "composer install"
 4. copy .env.example and rename copied file to .env and add this in the bottom without quote "API_KEY=c3f34fecfe6f64e6ecea28143981b019"
-5. run laravel by typing "php artisan serve"
+5. type in terminal without quote "php artisan key:generate"
+6. run laravel by typing "php artisan serve"
