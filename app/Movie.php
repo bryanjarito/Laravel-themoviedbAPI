@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\Http;
 
 class Movie extends Model
 {
-    public static function popularMovies($request) {
+    public static function popularMovies($request)
+    {
         $url = 'https://api.themoviedb.org/3/movie/popular';
         $response = Http::get($url, [
             'api_key' => env('API_KEY'),
@@ -29,20 +30,21 @@ class Movie extends Model
             array_push($movies, $data);
         }
 
-        
+
         return $movies;
     }
 
-    public static function movie($id) {
+    public static function movie($id)
+    {
         $url = 'https://api.themoviedb.org/3/movie/popular';
         $response = Http::get($url, [
             'api_key' => env('API_KEY')
         ]);
         $result =  json_decode($response->body());
         $movie = [];
-        
+
         foreach ($result->results as $result) {
-            
+
             if ($id == $result->id) {
                 $data = [
                     'title' => $result->title,
